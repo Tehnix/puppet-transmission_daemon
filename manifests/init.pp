@@ -36,6 +36,7 @@ class transmission_daemon (
   $rpc_user = "transmission",
   $rpc_password = undef,
   $rpc_whitelist = undef,
+  $rpc_whitelist_enabled = undef,
   $blocklist_url = undef
 ) {
   $config_path = "/etc/transmission-daemon"
